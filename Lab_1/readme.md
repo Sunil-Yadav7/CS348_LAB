@@ -52,7 +52,7 @@ ld -m elf_i386 230101099_setb.o -o 230101099_setb
 Write a program to multiply the given two matrices (N*M, M*N) and print the
 resultant matrix. All inputs must be taken from user.
 
-## Assumptions made:
+### Assumptions made:
 Both input matrices A & B contain atmost 100 integers each.
 Resultant matrix can also contain atmost 100 integers only.
 N and M can be taken accordingly keeping in mind the capacity of the matrices.
