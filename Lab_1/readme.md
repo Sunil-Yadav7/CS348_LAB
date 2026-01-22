@@ -62,6 +62,6 @@ To assemble, link, and run the program, use the following commands in your termi
 
 ```bash
 nasm -f elf32 230101099_setb_5.asm -o 230101099_setb_5.o
-ld -m elf_i386 230101099_setb_5.o -o 230101099_setb_5
+gcc -m32 230101099_setb_5.o -o 230101099_setb_5
 ./230101099_setb_5
 ```
